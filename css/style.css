@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  border: 2px blue solid;
+  border-radius: 30px;
+  transition: all 0.5s;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .show > .nav-link:hover {
+  border: 0.1rem blue solid;
+  border-radius: 30px;
+  overflow: hidden;
+  color: blue;
+}
+
+#home {
+  background-image: url(../images/banner.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.button {
+  position: absolute;
+  border-radius: 30px;
+  top: 5%;
+  right: 1%;
+  bottom: 5%;
+}
+
+.body {
+  height: 20rem;
+}
+
+.head {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(93, 93, 134) !important;
+  opacity: 1; /* Firefox */
+}
